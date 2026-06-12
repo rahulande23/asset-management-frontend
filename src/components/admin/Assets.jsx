@@ -84,13 +84,8 @@ function Assets({}) {
   // Get icon for each category
   const getCategoryIcon = (category) => {
     const icons = {
-      Laptop: "💻",
-      Monitor: "🖥️",
-      Desktop: "🖨️",
-      Mobile: "📱",
-      Accessory: "⌨️",
     };
-    return icons[category] || "📦";
+    return icons[category] || "";
   };
 
   return (

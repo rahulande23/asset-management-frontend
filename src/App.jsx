@@ -8,7 +8,7 @@ import EmployeeDashboard from "./components/employee/EmployeeDashboard";
 import AdminDashboard from "./components/admin/AdminDashboard";
 
 function App() {
-  // localStorage.clear();         
+  // localStorage.clear();
   // localStorage.setItem("token", "ahalhfahaa");
   // localStorage.setItem("role", "teamleader");
 
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RedirectOnLoad />} />
         <Route path="/login" element={<Login />} />
-        
+
         <Route
           path="/admin"
           element={
